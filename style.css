@@ -1,60 +1,30 @@
 body {
-    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-family: sans-serif;
     margin: 0;
     padding: 0;
-    background-color: #f0f2f5;
-    color: #333;
+    background-color: #f4f4f4; /* Warna Background Abu-abu */
 }
 
 header {
     background-color: #1a237e; /* Biru Tua */
     color: white;
-    padding: 30px 0;
+    padding: 40px 0;
     text-align: center;
-    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
-}
-
-nav {
-    margin-top: 20px;
 }
 
 nav a {
+    color: white;
     text-decoration: none;
-    color: #ffffff;
     margin: 0 15px;
-    font-size: 18px;
-    font-weight: 500;
-    transition: 0.3s;
-}
-
-nav a:hover {
-    color: #ffeb3b; /* Kuning saat disentuh */
-}
-
-main {
-    padding: 40px 20px;
+    font-weight: bold;
 }
 
 section {
-    background-color: #ffffff;
-    max-width: 800px;
-    margin: 0 auto;
+    background-color: white;
     padding: 40px;
-    border-radius: 12px;
-    box-shadow: 0 4px 15px rgba(0,0,0,0.1);
+    margin: 20px auto;
+    width: 60%;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(0,0,0,0.2);
     text-align: center;
-}
-
-h1 {
-    margin: 0;
-    font-size: 2.5em;
-}
-
-h2 {
-    color: #1a237e;
-}
-
-p {
-    line-height: 1.6;
-    font-size: 1.1em;
 }
