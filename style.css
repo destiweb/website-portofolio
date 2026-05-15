@@ -1,0 +1,39 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f4f4f4;
+}
+
+header {
+    background-color: darkblue;
+    color: white;
+    padding: 20px;
+    text-align: center;
+}
+
+nav {
+    background-color: white;
+    padding: 15px;
+    text-align: center;
+}
+
+nav a {
+    text-decoration: none;
+    color: darkblue;
+    margin: 15px;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+nav a:hover {
+    color: orange;
+}
+
+.container {
+    padding: 40px;
+}
+
+h2 {
+    color: darkblue;
+}
