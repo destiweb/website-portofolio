@@ -1,27 +1,26 @@
+/* Reset margin dan padding */
 body {
     font-family: Arial, sans-serif;
     margin: 0;
     padding: 0;
     background-color: #f4f4f4;
+    text-align: center;
 }
 
 header {
-    background-color: darkblue;
-    color: white;
-    padding: 20px;
-    text-align: center;
+    background-color: #ffffff;
+    padding: 20px 0;
+    border-bottom: 2px solid #ddd;
 }
 
 nav {
-    background-color: white;
-    padding: 15px;
-    text-align: center;
+    margin-top: 10px;
 }
 
 nav a {
     text-decoration: none;
     color: darkblue;
-    margin: 15px;
+    margin: 0 15px;
     font-size: 20px;
     font-weight: bold;
 }
@@ -30,10 +29,11 @@ nav a:hover {
     color: orange;
 }
 
-.container {
-    padding: 40px;
+main {
+    padding: 50px;
 }
 
-h2 {
-    color: darkblue;
+h1 {
+    margin: 0;
+    color: #333;
 }
